@@ -1,0 +1,565 @@
+.barraul{
+    list-style: none;
+    font-size: 1;
+    padding: 1;
+    text-align: right;
+}
+
+.barrali{
+    display: inline-block;
+    width: 12%;
+    position: relative;
+}
+
+   .barraa{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 5%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+   }
+
+   header {background-color: blueviolet;}
+
+
+
+   .texto1{
+    background-image: url(../imagenes/Imagen\ de\ WhatsApp\ 2023-06-07\ a\ las\ 15.45.41.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    position: relative;
+    bottom: 55px;
+   }
+
+.texto1 h1 {
+    color: white;
+    text-align: right;
+    font-size: 90px;
+    position: relative;
+    top: 3%;
+    right: 13%;
+ }
+
+ .texto1 h2{
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    position: relative;
+    right: 12%;
+    bottom: 6%;
+
+ }
+
+.texto1 p {
+    color: white;
+    font-size: 20px;
+   margin: right;
+    max-width: 51%;
+    display: inline-block;
+    position: relative;
+    right: 3%;
+    bottom: 8%;
+}
+
+
+
+.galeria-de-anuel h1{
+    color: black;
+    background-color: beige;
+    font-size: 50px;
+}
+
+
+.imganuel1 img{
+ width: 180px;
+   }
+
+
+   
+   .titulo{
+    font-size: 30px;
+    position: relative;
+    left: 490px;
+}
+
+#nombre{
+position: relative;
+left: 400px;
+}
+
+#apellido{
+    position: relative;
+    left: 430px;
+}
+ 
+   #mensaje{
+   position: relative;
+   top: 80px;
+   right: 21px;
+   width: 300px ;
+   padding: 2.5%;
+   
+   }
+
+   #enviar{
+    position: relative;
+    top: 170px;
+    left: 630px;
+    color: white;
+    background-color: black;
+    
+   }
+
+
+   
+   .logofacebook{
+    width: 40px;
+    position: relative;
+    top: 270px;
+    left: 1070px;
+   }
+
+   .logowhatsapp{
+    width: 40px;
+    position: relative;
+    top: 270px;
+    left: 1100px;
+   }
+
+   .logoinstagram{
+    width: 58px;
+    position: relative;
+    top: 280px;
+    left: 1130px;
+   }
+
+
+.logofacebook-galeria{
+    width: 40px;
+    position: relative;
+    top: 40px;
+    left: 1070px;
+}
+
+.logowhatsapp-galeria{ 
+    width: 40px;
+    position: relative;
+    top: 40px;
+    left: 1100px;
+}
+
+.logoinstagram-galeria{
+    width: 58px;
+    position: relative;
+    top: 50px;
+    left: 1130px;
+}
+
+
+
+.logofacebook-canciones{
+    width: 40px;
+    position: relative;
+    top: 90px;
+    left: 1070px;
+}
+
+.logowhatsapp-canciones{ 
+    width: 40px;
+    position: relative;
+    top: 90px;
+    left: 1100px;
+}
+
+.logoinstagram-canciones{
+    width: 58px;
+    position: relative;
+    top: 100px;
+    left: 1130px;
+}
+
+
+
+.logofacebook-informacion{
+    width: 40px;
+    position: relative;
+    top: 15px;
+    left: 1070px;
+}
+
+.logowhatsapp-informacion{
+    width: 40px;
+    position: relative;
+    top: 15px;
+    left: 1100px;
+}
+
+.logoinstagram-informacion{
+    width: 55px;
+    position: relative;
+    top: 25px;
+    left: 1130px;
+}
+
+
+
+.logofacebook-index{
+    width: 40px;
+    position: relative;
+    left: 1070px;
+    bottom: 60px;
+}
+
+.logowhatsapp-index{
+    width: 40px;
+    position: relative;
+    left: 1100px;
+    bottom: 60px;
+}
+
+.logoinstagram-index{
+    width: 55px;
+    position: relative;
+    left: 1130px;
+    bottom: 50px;
+}
+
+
+
+
+       .navint-ul {
+        font-size: 1;
+        text-align: none;
+       }
+
+       .navint-li {
+        display: inline-block;
+        width: 12%;
+        position: relative;
+       }
+
+       #busqueda{
+        position: relative;
+        top: 30px;
+        left: 20px;
+        width: 400px ;
+        padding: 1;
+        font-size: 17px;
+        background-color: rgb(231, 231, 231);
+        border-radius: 20px;
+       }
+
+       .cancionesul{
+        list-style: none;
+        font-size: 0.1;
+        padding: 1;
+        text-align: right;
+        
+    }
+    
+    .cancionesli{
+        display: inline-block;
+        width: 10%;
+        position: relative;
+        right: 45px;
+        bottom: 20px;
+    }
+    
+       .cancionesa{
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        color: white;
+        background-color: rgb(94, 94, 94);
+        padding: 5%;
+        text-decoration: none;
+       }
+
+       
+    
+       .nombredelacancion1{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        right: 12px;
+        bottom: 13px;
+    }
+    .nombredelacancion2{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        right: 5px;
+        bottom: 13px;
+    }
+    .nombredelacancion3{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        right: 0px;
+        bottom: 13px;
+    }
+    .nombredelacancion4{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 6px;
+        bottom: 13px;
+    }
+    .nombredelacancion5{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 12px;
+        bottom: 13px;
+    }
+    .nombredelacancion6{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 22px;
+        bottom: 13px;
+    }
+    .nombredelacancion7{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 28px;
+        bottom: 13px;
+    }
+    .nombredelacancion8{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+       left: 35px;
+       bottom: 13px;
+    }
+    .nombredelacancion9{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 42px;
+        bottom: 13px;
+    }
+    .nombredelacancion10{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 48px;
+        bottom: 13px;
+    }
+    .nombredelacancion11{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 56px;
+        bottom: 13px;
+    }
+    
+    .imgcanciones2{
+        position: relative;
+        top: 25px;
+    }
+
+    .nombredelacancion12{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        right: 12px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion13{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        right: 5px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion14{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        right: 0px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion15{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 6px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion16{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 12px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion17{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 22px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion18{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 28px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion19{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+       left: 35px;
+       bottom: 1px;
+       top: 15px;
+    }
+    .nombredelacancion20{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 42px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion21{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 48px;
+        bottom: 1px;
+        top: 15px;
+    }
+    .nombredelacancion22{
+        display: inline-block;
+        width: 8%;
+        position: relative;
+        left: 56px;
+        bottom: 1px;
+        top: 15px;
+        }
+    
+
+
+
+    @media screen and (max-width: 760px) {
+
+        .barraul{
+            list-style: none;
+            font-size: 1;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .barrali{
+            display: inline-block;
+            width: 12%;
+            position: relative;
+            bottom: 17px;
+        }
+        
+           .barraa{
+            font-size: 9px;
+            text-align: center;
+            display: block;
+            color: white;
+            background-color: black;
+            padding: 4%;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: sans-serif;
+           }
+        
+           header {background-color: rgb(255, 255, 255);}
+        
+        
+
+        .texto1{
+            background-image: url(../imagenes/mobilenuevo.jpg);
+            height: 330px;
+            width: 745px;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: right;
+            position: relative;
+            bottom: 30px;
+           
+            
+        }
+
+        .texto1 h1 {
+            color: white;
+            display: flex;
+            text-align: center;
+            font-size: 57px;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            position: relative;
+            bottom: 17px;
+            left: 580px;
+        }
+
+         .texto1 h2{
+            color: black;
+            text-align: center;
+            font-size: 28px;
+            position: relative;
+            bottom: 5%;
+            left: 5px;
+            
+         }
+        
+        .texto1 p {
+            color: black;
+            font-size: 18px;
+            margin: left;
+            text-align: left;
+            max-width: 140%;
+            display: inline-block;
+            position: relative;
+            left: 1%;
+            bottom: 18%;
+            
+            
+        }
+
+        .logofacebook-index{
+            width: 40px;
+            position: relative;
+            left:10px;
+            bottom: 122px;
+        }
+        
+        .logowhatsapp-index{
+            width: 36px;
+            position: relative;
+           left: 1px;
+            bottom: 172px;
+        }
+        
+        .logoinstagram-index{
+            width: 36px;
+            position: relative;
+            left: 2px;
+            bottom: 222px;
+            
+        }
+    }
