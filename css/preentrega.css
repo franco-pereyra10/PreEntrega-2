@@ -1,54 +1,22 @@
 .header-nav{
+    font-size: 17px;
     width: 100%;
     position: fixed;
-    padding: 8px 0px;
+    padding: 20px;
     font-weight: bold;
     z-index: 5;
-    
-    background-color: blueviolet;
 }
-
-
-
-
-.barraul{
-    list-style: none;
-    font-size: 1;
-    padding: 1;
-    text-align: right;
-}
-
-.barrali{
-    display: inline-block;
-    width: 12%;
-    position: relative;
-}
-
-   .barraa{
-    font-size: 14px;
-    text-align: center;
-    display: block;
-    color: white;
-    background-color: black;
-    padding: 5%;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: sans-serif;
-   }
-
    
 
 
 
    .texto1{
     background-image: url(../imagenes/Imagen\ de\ WhatsApp\ 2023-06-07\ a\ las\ 15.45.41.jpg);
-    height: 550px;
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-    
-    
+    margin-top: 30px;
    }
 
 .texto1 h1 {
@@ -491,7 +459,7 @@ left: 400px;
             background-repeat: no-repeat;
             background-size: cover;
             text-align: right;
-            position: relative;
+            
             
            
             
