@@ -1,3 +1,16 @@
+.header-nav{
+    width: 100%;
+    position: fixed;
+    padding: 8px 0px;
+    font-weight: bold;
+    z-index: 5;
+    
+    background-color: blueviolet;
+}
+
+
+
+
 .barraul{
     list-style: none;
     font-size: 1;
@@ -23,19 +36,19 @@
     font-family: sans-serif;
    }
 
-   header {background-color: blueviolet;}
+   
 
 
 
    .texto1{
     background-image: url(../imagenes/Imagen\ de\ WhatsApp\ 2023-06-07\ a\ las\ 15.45.41.jpg);
     height: 550px;
-    background-position: center;
+    background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-    position: relative;
-    bottom: 55px;
+    
+    
    }
 
 .texto1 h1 {
@@ -465,33 +478,8 @@ left: 400px;
 
     @media screen and (max-width: 760px) {
 
-        .barraul{
-            list-style: none;
-            font-size: 1;
-            padding: 0;
-            text-align: center;
-        }
         
-        .barrali{
-            display: inline-block;
-            width: 12%;
-            position: relative;
-            bottom: 17px;
-        }
-        
-           .barraa{
-            font-size: 9px;
-            text-align: center;
-            display: block;
-            color: white;
-            background-color: black;
-            padding: 4%;
-            text-transform: uppercase;
-            text-decoration: none;
-            font-family: sans-serif;
-           }
-        
-           header {background-color: rgb(255, 255, 255);}
+           
         
         
 
@@ -504,21 +492,20 @@ left: 400px;
             background-size: cover;
             text-align: right;
             position: relative;
-            bottom: 30px;
+            
            
             
         }
 
         .texto1 h1 {
             color: white;
-            display: flex;
-            text-align: center;
+            position: relative;
+            top: 10px;
+            left: 480px;
             font-size: 57px;
             writing-mode: vertical-rl;
             text-orientation: upright;
-            position: relative;
-            bottom: 17px;
-            left: 580px;
+            
         }
 
          .texto1 h2{
@@ -566,4 +553,4 @@ left: 400px;
             bottom: 222px;
             
         }
-    }
+}
