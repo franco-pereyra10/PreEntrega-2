@@ -1,22 +1,22 @@
 .header-nav{
     font-size: 17px;
     width: 100%;
-    position: fixed;
-    padding: 20px;
+    position: absolute;
     font-weight: bold;
-    z-index: 5;
+    margin: 0;
+    height: 100%;
+
 }
    
-
-
 
    .texto1{
     background-image: url(../imagenes/Imagen\ de\ WhatsApp\ 2023-06-07\ a\ las\ 15.45.41.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: right;
-    margin-top: 30px;
+    
+    position: relative;
+    top: 150px;
    }
 
 .texto1 h1 {
@@ -35,18 +35,15 @@
     position: relative;
     right: 12%;
     bottom: 6%;
-
  }
 
 .texto1 p {
     color: white;
-    font-size: 20px;
-   margin: right;
-    max-width: 51%;
-    display: inline-block;
-    position: relative;
-    right: 3%;
-    bottom: 8%;
+    font-size: 17px;
+    width: 56%;
+    text-align: center;
+    margin-left: 580px;
+    
 }
 
 
