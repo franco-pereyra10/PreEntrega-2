@@ -125,21 +125,21 @@ left: 400px;
 .logofacebook-galeria{
     width: 40px;
     position: relative;
-    top: 40px;
+    top: 100px;
     left: 1070px;
 }
 
 .logowhatsapp-galeria{ 
     width: 40px;
     position: relative;
-    top: 40px;
+    top: 100px;
     left: 1100px;
 }
 
 .logoinstagram-galeria{
     width: 58px;
     position: relative;
-    top: 50px;
+    top: 100px;
     left: 1130px;
 }
 
@@ -185,7 +185,7 @@ left: 400px;
 .logoinstagram-informacion{
     width: 55px;
     position: relative;
-    top: 25px;
+    top: 15px;
     left: 1130px;
 }
 
@@ -428,20 +428,21 @@ left: 400px;
     .imagen{
         background-image: linear-gradient(
             0deg,
+            rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
-            rgba(0,0,0,0.5)),
-        url(../imagenes/mobilenuevo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70vh;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+            )
+         ,url(../imagenes/mobilenuevo.jpg);
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 70vh;
+         display: flex;
+         justify-content: end;
+         align-items: center;
 }
  
 .texto1 h1{
-    color: red;
+    color: white;
     font-size: 60px;
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -489,6 +490,40 @@ footer{
 }
 
 .logoinstagram-index{
+    width: 60px;
+    padding: 7%;
+}
+    
+
+/* Galeria */
+
+.imganuel1 img{
+    width: 185.3px;
+    padding: 1%;
+}
+
+.imganuel1{
+    background-color: rgba(209, 64, 178, 0.397);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(20, 20, 20, 0.788);
+}
+
+.logofacebook-galeria{
+    width: 60px;
+    padding: 5%;
+    
+}
+
+.logowhatsapp-galeria{
+    width: 60px;
+    padding: 7%;
+}
+
+.logoinstagram-galeria{
     width: 60px;
     padding: 7%;
 }
