@@ -1,22 +1,18 @@
 .header-nav{
-    font-size: 17px;
-    width: 100%;
-    position: absolute;
     font-weight: bold;
-    margin: 0;
-    height: 100%;
+    
 }
-   
+
    .texto1{
     background-image: url(../imagenes/Imagen\ de\ WhatsApp\ 2023-06-07\ a\ las\ 15.45.41.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: 100px;
    }
 
 .texto1 h1 {
+    font-weight: bold;
     color: white;
     text-align: right;
     font-size: 90px;
@@ -26,21 +22,21 @@
  }
 
  .texto1 h2{
+    font-weight: bold;
     color: white;
     text-align: right;
     font-size: 30px;
     position: relative;
-    right: 12%;
-    bottom: 6%;
+    right: 10%;
+    bottom: 7%;
  }
 
 .texto1 p {
     color: white;
     font-size: 17px;
-    width: 56%;
+    max-width: 30%;
     text-align: center;
-    margin-left: 580px;
-    
+    margin-left: 800px;
 }
 
 
@@ -56,15 +52,18 @@
 
 
 .imganuel1 img{
- width: 180px;
-   }
+    width: 180px;
+}
 
 
    
-   .titulo{
-    font-size: 30px;
-    position: relative;
-    left: 490px;
+   .titulo h1{
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.219);
 }
 
 #nombre{
@@ -80,16 +79,15 @@ left: 400px;
    #mensaje{
    position: relative;
    top: 80px;
-   right: 21px;
-   width: 300px ;
+   right: 378px;
+   width: 400px ;
    padding: 2.5%;
-   
    }
 
    #enviar{
     position: relative;
     top: 170px;
-    left: 630px;
+    left: 650px;
     color: white;
     background-color: black;
     
@@ -100,21 +98,21 @@ left: 400px;
    .logofacebook{
     width: 40px;
     position: relative;
-    top: 270px;
+    top: 330px;
     left: 1070px;
    }
 
    .logowhatsapp{
     width: 40px;
     position: relative;
-    top: 270px;
+    top: 330px;
     left: 1100px;
    }
 
    .logoinstagram{
     width: 58px;
     position: relative;
-    top: 280px;
+    top: 330px;
     left: 1130px;
    }
 
@@ -144,21 +142,21 @@ left: 400px;
 .logofacebook-canciones{
     width: 40px;
     position: relative;
-    top: 60px;
+    top: 130px;
     left: 1070px;
 }
 
 .logowhatsapp-canciones{ 
     width: 40px;
     position: relative;
-    top: 60px;
+    top: 130px;
     left: 1100px;
 }
 
 .logoinstagram-canciones{
     width: 58px;
     position: relative;
-    top: 70px;
+    top: 130px;
     left: 1130px;
 }
 
@@ -191,21 +189,21 @@ left: 400px;
     width: 40px;
     position: relative;
     left: 1070px;
-    bottom: 60px;
+    bottom: 15px;
 }
 
 .logowhatsapp-index{
     width: 40px;
     position: relative;
     left: 1100px;
-    bottom: 60px;
+    bottom: 15px;
 }
 
 .logoinstagram-index{
     width: 55px;
     position: relative;
     left: 1130px;
-    bottom: 50px;
+    bottom: 15px;
 }
 
 
@@ -266,82 +264,72 @@ left: 400px;
         width: 8%;
         position: relative;
         right: 12px;
-        bottom: 13px;
     }
     .nombredelacancion2{
         display: inline-block;
         width: 8%;
         position: relative;
         right: 5px;
-        bottom: 13px;
     }
     .nombredelacancion3{
         display: inline-block;
         width: 8%;
         position: relative;
         right: 0px;
-        bottom: 13px;
     }
     .nombredelacancion4{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 6px;
-        bottom: 13px;
     }
     .nombredelacancion5{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 12px;
-        bottom: 13px;
     }
     .nombredelacancion6{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 22px;
-        bottom: 13px;
     }
     .nombredelacancion7{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 28px;
-        bottom: 13px;
     }
     .nombredelacancion8{
         display: inline-block;
         width: 8%;
         position: relative;
        left: 35px;
-       bottom: 13px;
     }
     .nombredelacancion9{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 42px;
-        bottom: 13px;
     }
     .nombredelacancion10{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 48px;
-        bottom: 13px;
     }
     .nombredelacancion11{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 56px;
-        bottom: 13px;
     }
     
     .imgcanciones2{
         position: relative;
         top: 25px;
+        background-repeat: repeat-x;
     }
 
     .nombredelacancion12{
@@ -349,8 +337,8 @@ left: 400px;
         width: 8%;
         position: relative;
         right: 12px;
-        bottom: 1px;
-        top: 15px;
+        background-repeat: repeat-x;
+        top: 25px;
     }
 
     .nombredelacancion13{
@@ -358,80 +346,70 @@ left: 400px;
         width: 8%;
         position: relative;
         right: 5px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion14{
         display: inline-block;
         width: 8%;
         position: relative;
         right: 0px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion15{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 6px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion16{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 12px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion17{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 22px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion18{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 28px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion19{
         display: inline-block;
         width: 8%;
         position: relative;
        left: 35px;
-       bottom: 1px;
-       top: 15px;
+       top: 25px;
     }
     .nombredelacancion20{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 42px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion21{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 48px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
     }
     .nombredelacancion22{
         display: inline-block;
         width: 8%;
         position: relative;
         left: 56px;
-        bottom: 1px;
-        top: 15px;
+        top: 25px;
         }
 
         
@@ -439,11 +417,6 @@ left: 400px;
 
 
     @media screen and (max-width: 760px) {
-
-        
-           
-        
-        
 
         .texto1{
             background-image: url(../imagenes/mobilenuevo.jpg);
@@ -453,10 +426,6 @@ left: 400px;
             background-repeat: no-repeat;
             background-size: cover;
             text-align: right;
-            
-            
-           
-            
         }
 
         .texto1 h1 {
@@ -467,7 +436,6 @@ left: 400px;
             font-size: 57px;
             writing-mode: vertical-rl;
             text-orientation: upright;
-            
         }
 
          .texto1 h2{
@@ -475,9 +443,8 @@ left: 400px;
             text-align: center;
             font-size: 28px;
             position: relative;
-            bottom: 5%;
-            left: 5px;
-            
+            bottom: 15%;
+            right: 55px;
          }
         
         .texto1 p {
@@ -485,13 +452,11 @@ left: 400px;
             font-size: 18px;
             margin: left;
             text-align: left;
-            max-width: 140%;
-            display: inline-block;
+            width: 800px;
+            
             position: relative;
-            left: 1%;
+            right: 100%;
             bottom: 18%;
-            
-            
         }
 
         .logofacebook-index{
