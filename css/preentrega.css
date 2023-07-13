@@ -1,6 +1,8 @@
+@media  screen and (min-width: 761px) {
+    
+
 .header-nav{
     font-weight: bold;
-    
 }
 
    .texto1{
@@ -8,35 +10,39 @@
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 92vh;
    }
 
 .texto1 h1 {
     font-weight: bold;
     color: white;
-    text-align: right;
     font-size: 90px;
-    position: relative;
-    top: 3%;
-    right: 13%;
+    margin-left: 800px;
+    margin-bottom: 65px;
  }
 
  .texto1 h2{
     font-weight: bold;
     color: white;
-    text-align: right;
     font-size: 30px;
+    margin-left: 740px;
     position: relative;
-    right: 10%;
-    bottom: 7%;
+    bottom: 60px;
  }
 
 .texto1 p {
     color: white;
     font-size: 19px;
-    max-width: 30%;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 600px;
     text-align: center;
-    margin-left: 800px;
+    position: relative;
+    bottom: 60px;
 }
 
 
@@ -188,22 +194,22 @@ left: 400px;
 .logofacebook-index{
     width: 40px;
     position: relative;
-    left: 1070px;
-    bottom: 15px;
+    left: 1100px;
+    bottom: 65px;
 }
 
 .logowhatsapp-index{
     width: 40px;
     position: relative;
-    left: 1100px;
-    bottom: 15px;
+    left: 1118px;
+    bottom: 63px;
 }
 
 .logoinstagram-index{
-    width: 55px;
+    width: 47px;
     position: relative;
-    left: 1130px;
-    bottom: 15px;
+    left: 1137px;
+    bottom: 63px;
 }
 
 
@@ -412,72 +418,79 @@ left: 400px;
         top: 25px;
         }
 
+    }
         
 
 
 
     @media screen and (max-width: 760px) {
 
-        .texto1{
-            background-image: url(../imagenes/mobilenuevo.jpg);
-            height: 330px;
-            width: 745px;
-            background-position: top;
-            background-repeat: no-repeat;
-            background-size: cover;
-            text-align: right;
-        }
+    .imagen{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5)
+            rgba(0,0,0,0.5)),
+        url(../imagenes/mobilenuevo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+ 
+.texto1 h1{
+    color: red;
+    font-size: 60px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
 
-        .texto1 h1 {
-            color: white;
-            position: relative;
-            top: 10px;
-            left: 480px;
-            font-size: 57px;
-            writing-mode: vertical-rl;
-            text-orientation: upright;
-        }
+.textos{
+background-color: black;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
 
-         .texto1 h2{
-            color: black;
-            text-align: center;
-            font-size: 28px;
-            position: relative;
-            bottom: 15%;
-            right: 55px;
-         }
-        
-        .texto1 p {
-            color: black;
-            font-size: 18px;
-            margin: left;
-            text-align: left;
-            width: 800px;
-            
-            position: relative;
-            right: 100%;
-            bottom: 18%;
-        }
+.texto1 h2{
+color: white;
+text-align: center;
+font-size: 20px;
+margin-top: 20px;
+width: 100%;
+}
 
-        .logofacebook-index{
-            width: 40px;
-            position: relative;
-            left:10px;
-            bottom: 122px;
-        }
-        
-        .logowhatsapp-index{
-            width: 36px;
-            position: relative;
-           left: 1px;
-            bottom: 172px;
-        }
-        
-        .logoinstagram-index{
-            width: 36px;
-            position: relative;
-            left: 2px;
-            bottom: 222px;
-            
-        }
+.texto1 p{
+    color: white;
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: end;
+    background-color: black;
+}
+
+.logofacebook-index{
+    width: 62px;
+    padding: 5%;
+    
+}
+
+.logowhatsapp-index{
+    width: 60px;
+    padding: 7%;
+}
+
+.logoinstagram-index{
+    width: 60px;
+    padding: 7%;
+}
+
 }
