@@ -1,0 +1,540 @@
+$color-primario: white;
+
+
+
+@media  screen and (min-width: 761px) {
+
+
+    .header-nav{
+        font-weight: bold;
+    }
+    
+       .texto1{
+        background-image: url(../imagenes/Imagen\ de\ WhatsApp\ 2023-06-07\ a\ las\ 15.45.41.jpg);
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 92vh;
+       }
+    
+    .texto1 h1 {
+        font-weight: bold;
+        color: $color-primario;
+        font-size: 90px;
+        margin-left: 800px;
+        margin-bottom: 65px;
+     }
+    
+     .texto1 h2{
+        font-weight: bold;
+        color: $color-primario;
+        font-size: 30px;
+        margin-left: 740px;
+        position: relative;
+        bottom: 60px;
+     }
+    
+    .texto1 p {
+        color: $color-primario;
+        font-size: 19px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 600px;
+        text-align: center;
+        position: relative;
+        bottom: 60px;
+    }
+    
+    
+    
+    .galeria-de-anuel h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: black;
+        background-color: beige;
+        font-size: 50px;
+    }
+    
+    
+    .imganuel1 img{
+        width: 180px;
+    }
+    
+    
+       
+       .titulo h1{
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25px;
+        background-color: rgba(0, 0, 0, 0.219);
+    }
+    
+    #nombre{
+    position: relative;
+    left: 400px;
+    }
+    
+    #apellido{
+        position: relative;
+        left: 430px;
+    }
+     
+       #mensaje{
+       position: relative;
+       top: 80px;
+       right: 378px;
+       width: 400px ;
+       padding: 2.5%;
+       }
+    
+       #enviar{
+        position: relative;
+        top: 170px;
+        left: 650px;
+        color: $color-primario;
+        background-color: black;
+        
+       }
+    
+    
+       
+       .logofacebook{
+        width: 40px;
+        position: relative;
+        top: 330px;
+        left: 1070px;
+       }
+    
+       .logowhatsapp{
+        width: 40px;
+        position: relative;
+        top: 330px;
+        left: 1100px;
+       }
+    
+       .logoinstagram{
+        width: 58px;
+        position: relative;
+        top: 330px;
+        left: 1130px;
+       }
+    
+    .logofacebook-galeria{
+        width: 40px;
+        position: relative;
+        top: 100px;
+        left: 1070px;
+    }
+    
+    .logowhatsapp-galeria{ 
+        width: 40px;
+        position: relative;
+        top: 100px;
+        left: 1100px;
+    }
+    
+    .logoinstagram-galeria{
+        width: 58px;
+        position: relative;
+        top: 100px;
+        left: 1130px;
+    }
+    
+    
+    
+    .logofacebook-canciones{
+        width: 40px;
+        position: relative;
+        top: 130px;
+        left: 1070px;
+    }
+    
+    .logowhatsapp-canciones{ 
+        width: 40px;
+        position: relative;
+        top: 130px;
+        left: 1100px;
+    }
+    
+    .logoinstagram-canciones{
+        width: 58px;
+        position: relative;
+        top: 130px;
+        left: 1130px;
+    }
+    
+    
+    
+    .logofacebook-informacion{
+        width: 40px;
+        position: relative;
+        top: 15px;
+        left: 1070px;
+    }
+    
+    .logowhatsapp-informacion{
+        width: 40px;
+        position: relative;
+        top: 15px;
+        left: 1100px;
+    }
+    
+    .logoinstagram-informacion{
+        width: 55px;
+        position: relative;
+        top: 15px;
+        left: 1130px;
+    }
+    
+    
+    
+    .logofacebook-index{
+        width: 40px;
+        position: relative;
+        left: 1100px;
+        bottom: 65px;
+    }
+    
+    .logowhatsapp-index{
+        width: 40px;
+        position: relative;
+        left: 1118px;
+        bottom: 63px;
+    }
+    
+    .logoinstagram-index{
+        width: 47px;
+        position: relative;
+        left: 1137px;
+        bottom: 63px;
+    }
+    
+    
+    
+    
+           .navint-ul {
+            font-size: 1;
+            text-align: none;
+           }
+    
+           .navint-li {
+            display: inline-block;
+            width: 12%;
+            position: relative;
+           }
+    
+           #busqueda{
+            position: relative;
+            top: 30px;
+            left: 20px;
+            width: 400px ;
+            padding: 1;
+            font-size: 17px;
+            background-color: rgb(231, 231, 231);
+            border-radius: 20px;
+           }
+    
+           .cancionesul{
+            list-style: none;
+            font-size: 0.1;
+            padding: 1;
+            text-align: right;
+            
+        }
+        
+        .cancionesli{
+            display: inline-block;
+            width: 10%;
+            position: relative;
+            right: 45px;
+            bottom: 20px;
+        }
+        
+           .cancionesa{
+            font-size: 15px;
+            text-align: center;
+            display: block;
+            color: $color-primario;
+            background-color: rgb(94, 94, 94);
+            padding: 5%;
+            text-decoration: none;
+           }
+    
+           
+        
+           .nombredelacancion1{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            right: 12px;
+        }
+        .nombredelacancion2{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            right: 5px;
+        }
+        .nombredelacancion3{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            right: 0px;
+        }
+        .nombredelacancion4{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 6px;
+        }
+        .nombredelacancion5{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 12px;
+        }
+        .nombredelacancion6{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 22px;
+        }
+        .nombredelacancion7{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 28px;
+        }
+        .nombredelacancion8{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+           left: 35px;
+        }
+        .nombredelacancion9{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 42px;
+        }
+        .nombredelacancion10{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 48px;
+        }
+        .nombredelacancion11{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 56px;
+        }
+        
+        .imgcanciones2{
+            position: relative;
+            top: 25px;
+            background-repeat: repeat-x;
+        }
+    
+        .nombredelacancion12{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            right: 12px;
+            background-repeat: repeat-x;
+            top: 25px;
+        }
+    
+        .nombredelacancion13{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            right: 5px;
+            top: 25px;
+        }
+        .nombredelacancion14{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            right: 0px;
+            top: 25px;
+        }
+        .nombredelacancion15{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 6px;
+            top: 25px;
+        }
+        .nombredelacancion16{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 12px;
+            top: 25px;
+        }
+        .nombredelacancion17{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 22px;
+            top: 25px;
+        }
+        .nombredelacancion18{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 28px;
+            top: 25px;
+        }
+        .nombredelacancion19{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+           left: 35px;
+           top: 25px;
+        }
+        .nombredelacancion20{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 42px;
+            top: 25px;
+        }
+        .nombredelacancion21{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 48px;
+            top: 25px;
+        }
+        .nombredelacancion22{
+            display: inline-block;
+            width: 8%;
+            position: relative;
+            left: 56px;
+            top: 25px;
+            }
+    
+        }
+            
+    
+    
+    
+        @media screen and (max-width: 760px) {
+    
+        .imagen{
+            background-image: linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+                )
+             ,url(../imagenes/mobilenuevo.jpg);
+             background-position: center center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 70vh;
+             display: flex;
+             justify-content: end;
+             align-items: center;
+    }
+     
+    .texto1  {h1{
+        color: $color-primario;
+        font-size: 60px;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-weight: bold;
+    }
+}
+    .textos{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .texto1 {
+        h2{
+    color: $color-primario;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    }
+}
+    .texto1 {
+        p{
+        color: $color-primario;
+        font-size: 18px;
+        width: 70%;
+        text-align: center;
+    }
+}
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        position: end;
+        background-color: black;
+    }
+    
+    .logofacebook-index{
+        width: 62px;
+        padding: 5%;
+        
+    }
+    
+    .logowhatsapp-index{
+        width: 60px;
+        padding: 7%;
+    }
+    
+    .logoinstagram-index{
+        width: 60px;
+        padding: 7%;
+    }
+        
+    
+    /* Galeria */
+    
+    .imganuel1 img{
+        width: 185.3px;
+        padding: 1%;
+    }
+    
+    .imganuel1{
+        background-color: rgba(209, 64, 178, 0.397);
+    }
+    .titulo{
+        display: flex;
+        justify-content: center;
+        color: $color-primario;
+        background-color: rgba(20, 20, 20, 0.788);
+    }
+    
+    .logofacebook-galeria{
+        width: 60px;
+        padding: 5%;
+        
+    }
+    
+    .logowhatsapp-galeria{
+        width: 60px;
+        padding: 7%;
+    }
+    
+    .logoinstagram-galeria{
+        width: 60px;
+        padding: 7%;
+    }
+    
+    }

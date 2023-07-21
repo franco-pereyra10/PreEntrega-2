@@ -1,0 +1,19 @@
+{
+  "name": "preentrega1-franco-pereyra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franco-pereyra10/PreEntrega-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franco-pereyra10/PreEntrega-2/issues"
+  },
+  "homepage": "https://github.com/franco-pereyra10/PreEntrega-2#readme"
+}
