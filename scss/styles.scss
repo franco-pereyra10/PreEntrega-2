@@ -1,9 +1,7 @@
-$color-primario: white;
-
+@import 'colores';
 
 
 @media  screen and (min-width: 761px) {
-
 
     .header-nav{
         font-weight: bold;
@@ -20,6 +18,16 @@ $color-primario: white;
         width: 100%;
         height: 92vh;
        }
+
+       .backgroundcolor-nav{
+        background-color: $backgroundcolor-nav;
+        padding: 0%;
+        }
+
+        .letra-nav{
+            color: $color-primario;
+            font-size: 20px;
+        }
     
     .texto1 h1 {
         font-weight: bold;
@@ -38,6 +46,7 @@ $color-primario: white;
         bottom: 60px;
      }
     
+
     .texto1 p {
         color: $color-primario;
         font-size: 19px;
@@ -55,18 +64,20 @@ $color-primario: white;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: black;
-        background-color: beige;
+        color: $color-secundario;
+        background-color: $color-terceario;
         font-size: 50px;
     }
     
-    
     .imganuel1 img{
         width: 180px;
+        display: flex;
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    
-    
-       
+
        .titulo h1{
         font-size: 50px;
         display: flex;
@@ -76,15 +87,15 @@ $color-primario: white;
         background-color: rgba(0, 0, 0, 0.219);
     }
     
-    #nombre{
-    position: relative;
-    left: 400px;
-    }
+       #nombre{
+       position: relative;
+       left: 400px;
+       }
     
-    #apellido{
+       #apellido{
         position: relative;
         left: 430px;
-    }
+       }
      
        #mensaje{
        position: relative;
@@ -99,12 +110,110 @@ $color-primario: white;
         top: 170px;
         left: 650px;
         color: $color-primario;
-        background-color: black;
-        
+        text-align: center;
+        background-color: $color-secundario;
+        font-weight: bold;
+        transition: background-color 0.5s;
+       }
+
+       #enviar:hover{
+        background-color: $color-sexto;
+        color: $color-primario;
+        font-weight: bold;
+        width: 90px;
        }
     
     
-       
+    /* Redes de la galeria */
+       .logofacebook-galeria{
+        width: 40px;
+        position: relative;
+        top: 100px;
+        left: 1070px;
+    }
+    
+    .logowhatsapp-galeria{ 
+        width: 40px;
+        position: relative;
+        top: 100px;
+        left: 1100px;
+    }
+    
+    .logoinstagram-galeria{
+        width: 58px;
+        position: relative;
+        top: 100px;
+        left: 1130px;
+    }
+
+
+    /* Redes de canciones */
+    .logofacebook-canciones{
+        width: 40px;
+        position: relative;
+        top: 130px;
+        left: 1070px;
+    }
+    
+    .logowhatsapp-canciones{ 
+        width: 40px;
+        position: relative;
+        top: 130px;
+        left: 1100px;
+    }
+    
+    .logoinstagram-canciones{
+        width: 58px;
+        position: relative;
+        top: 130px;
+        left: 1130px;
+    }
+
+    /* Redes de informacion */
+    .logofacebook-informacion{
+        width: 40px;
+        position: relative;
+        top: 15px;
+        left: 1070px;
+    }
+    
+    .logowhatsapp-informacion{
+        width: 40px;
+        position: relative;
+        top: 15px;
+        left: 1100px;
+    }
+    
+    .logoinstagram-informacion{
+        width: 55px;
+        position: relative;
+        top: 15px;
+        left: 1130px;
+    }
+
+    /* Redes de index */
+    .logofacebook-index{
+        width: 40px;
+        position: relative;
+        left: 1100px;
+        bottom: 65px;
+    }
+    
+    .logowhatsapp-index{
+        width: 40px;
+        position: relative;
+        left: 1118px;
+        bottom: 63px;
+    }
+    
+    .logoinstagram-index{
+        width: 47px;
+        position: relative;
+        left: 1137px;
+        bottom: 63px;
+    }
+
+    /* Redes de contacto */
        .logofacebook{
         width: 40px;
         position: relative;
@@ -126,98 +235,6 @@ $color-primario: white;
         left: 1130px;
        }
     
-    .logofacebook-galeria{
-        width: 40px;
-        position: relative;
-        top: 100px;
-        left: 1070px;
-    }
-    
-    .logowhatsapp-galeria{ 
-        width: 40px;
-        position: relative;
-        top: 100px;
-        left: 1100px;
-    }
-    
-    .logoinstagram-galeria{
-        width: 58px;
-        position: relative;
-        top: 100px;
-        left: 1130px;
-    }
-    
-    
-    
-    .logofacebook-canciones{
-        width: 40px;
-        position: relative;
-        top: 130px;
-        left: 1070px;
-    }
-    
-    .logowhatsapp-canciones{ 
-        width: 40px;
-        position: relative;
-        top: 130px;
-        left: 1100px;
-    }
-    
-    .logoinstagram-canciones{
-        width: 58px;
-        position: relative;
-        top: 130px;
-        left: 1130px;
-    }
-    
-    
-    
-    .logofacebook-informacion{
-        width: 40px;
-        position: relative;
-        top: 15px;
-        left: 1070px;
-    }
-    
-    .logowhatsapp-informacion{
-        width: 40px;
-        position: relative;
-        top: 15px;
-        left: 1100px;
-    }
-    
-    .logoinstagram-informacion{
-        width: 55px;
-        position: relative;
-        top: 15px;
-        left: 1130px;
-    }
-    
-    
-    
-    .logofacebook-index{
-        width: 40px;
-        position: relative;
-        left: 1100px;
-        bottom: 65px;
-    }
-    
-    .logowhatsapp-index{
-        width: 40px;
-        position: relative;
-        left: 1118px;
-        bottom: 63px;
-    }
-    
-    .logoinstagram-index{
-        width: 47px;
-        position: relative;
-        left: 1137px;
-        bottom: 63px;
-    }
-    
-    
-    
     
            .navint-ul {
             font-size: 1;
@@ -237,7 +254,7 @@ $color-primario: white;
             width: 400px ;
             padding: 1;
             font-size: 17px;
-            background-color: rgb(231, 231, 231);
+            background-color: $color-primario;
             border-radius: 20px;
            }
     
@@ -246,7 +263,6 @@ $color-primario: white;
             font-size: 0.1;
             padding: 1;
             text-align: right;
-            
         }
         
         .cancionesli{
@@ -262,14 +278,18 @@ $color-primario: white;
             text-align: center;
             display: block;
             color: $color-primario;
-            background-color: rgb(94, 94, 94);
+            background-color: rgb(68, 68, 68);
             padding: 5%;
             text-decoration: none;
            }
-    
-           
+
+           .cancionesa:hover{
+            background-color: $color-secundario;
+            font-weight: bold;
+           }
         
-           .nombredelacancion1{
+           
+        .nombredelacancion1{
             display: inline-block;
             width: 8%;
             position: relative;
@@ -315,7 +335,7 @@ $color-primario: white;
             display: inline-block;
             width: 8%;
             position: relative;
-           left: 35px;
+            left: 35px;
         }
         .nombredelacancion9{
             display: inline-block;
@@ -422,13 +442,41 @@ $color-primario: white;
             top: 25px;
             }
     
+
+            .articles-informacion{
+                padding: 0.8%;
+            }
+            .backgroundcolor-nav-info{
+                background-color: $color-secundario;
+                height: 26px;
+            }
+
+            .letra-nav-info{
+                color: $color-primario;
+                font-size: 15px;
+            }
+            .letra-nav-info:hover{
+                background-color: $color-primario;
+             color: $color-secundario;
+
+            }
         }
             
     
     
     
         @media screen and (max-width: 760px) {
-    
+
+
+            .backgroundcolor-nav{
+                background-color: $backgroundcolor-nav;
+                }
+        
+                .letra-nav{
+                    color: $color-primario;
+                    font-size: 20px;
+                }
+
         .imagen{
             background-image: linear-gradient(
                 0deg,
@@ -454,7 +502,7 @@ $color-primario: white;
     }
 }
     .textos{
-    background-color: black;
+    background-color: $color-secundario;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -484,7 +532,7 @@ $color-primario: white;
         display: flex;
         justify-content: center;
         position: end;
-        background-color: black;
+        background-color: $color-secundario;
     }
     
     .logofacebook-index{
@@ -512,13 +560,13 @@ $color-primario: white;
     }
     
     .imganuel1{
-        background-color: rgba(209, 64, 178, 0.397);
+        background-color: $color-cuarto;
     }
     .titulo{
         display: flex;
         justify-content: center;
         color: $color-primario;
-        background-color: rgba(20, 20, 20, 0.788);
+        background-color: $color-quinto;
     }
     
     .logofacebook-galeria{
