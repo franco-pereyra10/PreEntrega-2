@@ -632,33 +632,37 @@
   }
   /* Contacto */
   .div-contact {
+    font-size: 22px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 35px;
   }
   #enviar {
-    position: relative;
-    top: 170px;
     color: white;
     text-align: center;
     background-color: black;
     font-weight: bold;
+    margin: 13px;
+  }
+  .footercontacto {
+    position: relative;
+    top: 450px;
   }
   .logofacebook {
-    width: 62px;
+    width: 60px;
     padding: 5%;
-    margin-top: 945%;
   }
   .logowhatsapp {
     width: 60px;
     padding: 7%;
-    margin-top: 945%;
   }
   .logoinstagram {
     width: 60px;
     padding: 7%;
-    margin-top: 945%;
   }
 }
 
