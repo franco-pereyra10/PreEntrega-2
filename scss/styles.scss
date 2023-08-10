@@ -47,6 +47,7 @@
         margin-left: 740px;
         position: relative;
         bottom: 60px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      }
     
 
@@ -59,6 +60,7 @@
         text-align: center;
         position: relative;
         bottom: 60px;
+        font-family:Arial, Helvetica, sans-serif;
     }
 
     .footerindex{
@@ -131,187 +133,25 @@
     }
        
     
+
     
+
+
     /* Canciones */
 
-    .displaynonecanciones{
-        display: none;
+    .maincanciones{
+        background-color: rgba(0, 0, 255, 0.068);
         }
 
-    .cancion-para-mobile{
-        display: none;
-    }
-
-    .cancionesul{
-        list-style: none;
-        font-size: 0.1;
-        padding: 1;
-        text-align: right;
-    }
-    
-    .cancionesli{
-        display: inline-block;
-        width: 10%;
-        position: relative;
-        right: 45px;
-        bottom: 20px;
-    }
-    
-       .cancionesa{
-        font-size: 15px;
-        text-align: center;
-        display: block;
-        color: $color-primario;
-        background-color: rgb(68, 68, 68);
-        padding: 5%;
-        text-decoration: none;
-       }
-
-       .cancionesa:hover{
-        background-color: $color-secundario;
-        font-weight: bold;
-       }
-    
-       .imgcanciones1{
-        @include flex-row-center;
-        margin: 0 auto;
+    .anuelspotify{
+        width: 100%;
+        height: 500px;
+        border-radius: 11px;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        gap: 8px;
-        }
-
-        .nombredelacancion1-11{
-            margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: start;
-        flex-wrap: wrap;
-        gap: 13px;
-        }
-
-        .nombredelacancion1{
-            @include inlineblock-relative-8;
-            left: 15px;
-        }
-        .nombredelacancion2{
-            @include inlineblock-relative-8;
-            left: 20px;
-        }
-        .nombredelacancion3{
-            @include inlineblock-relative-8;
-            left: 23px;
-        }
-        .nombredelacancion4{
-            @include inlineblock-relative-8;
-            left: 23px;
-        }
-        .nombredelacancion5{
-            @include inlineblock-relative-8;
-            left: 25px;
-        }
-        .nombredelacancion6{
-            @include inlineblock-relative-8;
-            left: 22px;
-        }
-        .nombredelacancion7{
-            @include inlineblock-relative-8;
-            left: 24px;
-        }
-        .nombredelacancion8{
-            @include inlineblock-relative-8;
-            left: 25px;
-        }
-        .nombredelacancion9{
-            @include inlineblock-relative-8;
-            left: 26px;
-        }
-        .nombredelacancion10{
-            @include inlineblock-relative-8;
-            left: 28px;
-        }
-        .nombredelacancion11{
-            @include inlineblock-relative-8;
-            left: 28px;
-        }
-
-    .imgcanciones2{
-    @include flex-row-center;
-    position: relative;
-    top: 25px;
-    margin: 0 auto;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
+        margin: 9px;
     }
-
-    .nombredelacancion12-22{
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: start;
-        flex-wrap: wrap;
-        gap: 13px;
-        
-    }
-    .nombredelacancion12{
-        @include inlineblock-relative-8;
-        left: 17px;
-        top: 25px;
-    }
-
-    .nombredelacancion13{
-        @include inlineblock-relative-8;
-        left: 20px;
-        top: 25px;
-    }
-    .nombredelacancion14{
-        @include inlineblock-relative-8;
-        left: 24px;
-        top: 25px;
-    }
-    .nombredelacancion15{
-        @include inlineblock-relative-8;
-        left: 26px;
-        top: 25px;
-    }
-    .nombredelacancion16{
-        @include inlineblock-relative-8;
-        left: 26px;
-        top: 25px;
-    }
-    .nombredelacancion17{
-        @include inlineblock-relative-8;
-        left: 26px;
-        top: 25px;
-    }
-    .nombredelacancion18{
-        @include inlineblock-relative-8;
-        left: 27px;
-        top: 25px;
-    }
-    .nombredelacancion19{
-        @include inlineblock-relative-8;
-       left: 27px;
-       top: 25px;
-    }
-    .nombredelacancion20{
-        @include inlineblock-relative-8;
-        left: 28px;
-        top: 25px;
-    }
-    .nombredelacancion21{
-        @include inlineblock-relative-8;
-        left: 28px;
-        top: 25px;
-    }
-    .nombredelacancion22{
-        @include inlineblock-relative-8;
-        left: 29px;
-        top: 25px;
-        }
-
 
         .footercanciones{
             display: flex;
@@ -434,6 +274,11 @@
      color: $color-secundario;
     }
 
+
+    .subtitulosh2 p {
+        font-family: 'REM', sans-serif;
+    }
+
             .footerinformacion{
              display: flex;
              justify-content: end;
@@ -486,7 +331,8 @@
                 }
 
 
-                /* Index */
+    /* Index */
+
         .imagen{
             background-image: linear-gradient(
                 0deg,
@@ -561,67 +407,19 @@
         
     
 /* Canciones */
-.cancion-para-mobile{
-font-size: 25px;
-background-color: $cancion-mobile-fondo;
-color: $color-secundario;
-display: flex;
-flex-direction: column;
-border: 1px solid black;
-}
 
-#busqueda{
-    width: 200px;
-    text-align: center;
-    height: 42px;
-    font-size: 20px;
-    background-color: rgb(201, 201, 201);
-    position: relative;
-    top: 37px;
-    left: 85px;
-    font-weight: bold;
-}
-
-.cancionesul{
-    list-style: none;
-    font-size: 0.1;
-    padding: 1;
-    text-align: right;
-}
-
-.cancionesli{
-    display: inline-block;
-    width: 23%;
-    position: relative;
-    right: 43px;
-    bottom: 48px;
-}
-
-.cancionesa{
-    font-size: 18px;
-    text-align: center;
-    display: block;
-    color: $color-primario;
-    background-color: rgb(43, 43, 43);
-    padding: 5%;
-    text-decoration: none;
-   }
-
-   .imgcanciones1{
-    display: none;
+    .maincanciones{
+        background-color: rgba(0, 0, 255, 0.068);
     }
 
-    .nombredelacancion1-11{
-    display: none;
-    }
-
-    
-.imgcanciones2{
-display: none;
-}
-
-.nombredelacancion12-22{
-    display: none;
+.anuelspotify{
+    width: 100%;
+    height: 500px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9px;
 }
 
 
