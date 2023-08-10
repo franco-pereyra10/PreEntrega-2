@@ -10,7 +10,11 @@
     width: 8%;
 }
 
-
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

@@ -2,6 +2,14 @@
   .header-nav {
     font-weight: bold;
   }
+  .backgroundcolor-nav {
+    background-color: rgb(68, 0, 255);
+  }
+  .letra-nav {
+    color: white;
+    font-size: 20px;
+  }
+  /*INDEX*/
   .texto1 {
     background-image: url(../imagenes/Imagen\ de\ WhatsApp\ 2023-06-07\ a\ las\ 15.45.41.jpg);
     background-position: center;
@@ -12,14 +20,6 @@
     flex-direction: column;
     width: 100%;
     height: 92vh;
-  }
-  .backgroundcolor-nav {
-    background-color: rgb(111, 0, 255);
-    padding: 0%;
-  }
-  .letra-nav {
-    color: white;
-    font-size: 20px;
   }
   .texto1 h1 {
     font-weight: bold;
@@ -46,16 +46,38 @@
     position: relative;
     bottom: 60px;
   }
+  .footerindex {
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
+  .logofacebook-index {
+    width: 40px;
+    margin: 10PX;
+  }
+  .logowhatsapp-index {
+    width: 40px;
+    margin: 10PX;
+  }
+  .logoinstagram-index {
+    width: 59px;
+  }
+  /*GALERIA*/
   .galeria-de-anuel h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: black;
-    background-color: rgba(122, 96, 143, 0.753);
     font-size: 50px;
+    font-weight: bold;
+  }
+  .galeria-de-anuel {
+    background-color: rgba(160, 177, 255, 0.788);
   }
   .imganuel1 img {
     width: 180px;
+    height: 150px;
+    object-fit: cover;
   }
   .imganuel1 {
     display: flex;
@@ -66,34 +88,26 @@
     flex-wrap: wrap;
     gap: 8px;
   }
-  .titulo h1 {
+  .footergaleria {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 50px;
-    margin-top: 25px;
-    background-color: rgba(0, 0, 0, 0.219);
+    justify-content: end;
+    margin-right: 25px;
   }
-  /* Redes de la galeria */
   .logofacebook-galeria {
     width: 40px;
-    position: relative;
-    top: 85px;
-    left: 1090px;
+    margin: 10px;
   }
   .logowhatsapp-galeria {
     width: 40px;
-    position: relative;
-    top: 85px;
-    left: 1120px;
+    margin: 10px;
   }
   .logoinstagram-galeria {
     width: 58px;
-    position: relative;
-    top: 85px;
-    left: 1145px;
   }
   /* Canciones */
+  .displaynonecanciones {
+    display: none;
+  }
   .cancion-para-mobile {
     display: none;
   }
@@ -304,132 +318,88 @@
     left: 29px;
     top: 25px;
   }
+  .footercanciones {
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
   .logofacebook-canciones {
     width: 40px;
-    position: relative;
-    top: 140px;
-    left: 1070px;
+    margin: 10px;
   }
   .logowhatsapp-canciones {
     width: 40px;
-    position: relative;
-    top: 140px;
-    left: 1100px;
+    margin: 10px;
   }
   .logoinstagram-canciones {
-    width: 58px;
-    position: relative;
-    top: 140px;
-    left: 1130px;
-  }
-  /* Redes de informacion */
-  .logofacebook-informacion {
-    width: 40px;
-    position: relative;
-    top: 15px;
-    left: 1070px;
-  }
-  .logowhatsapp-informacion {
-    width: 40px;
-    position: relative;
-    top: 15px;
-    left: 1100px;
-  }
-  .logoinstagram-informacion {
-    width: 55px;
-    position: relative;
-    top: 15px;
-    left: 1130px;
-  }
-  /* Redes de index */
-  .logofacebook-index {
-    width: 40px;
-    position: relative;
-    left: 1100px;
-    bottom: 65px;
-  }
-  .logowhatsapp-index {
-    width: 40px;
-    position: relative;
-    left: 1118px;
-    bottom: 63px;
-  }
-  .logoinstagram-index {
-    width: 47px;
-    position: relative;
-    left: 1137px;
-    bottom: 63px;
+    width: 60px;
   }
   /* Contacto */
-  #nombre {
-    position: relative;
-    left: 480px;
-    top: 50px;
-  }
-  #apellido {
-    position: relative;
-    left: 485px;
-    top: 50px;
-  }
-  #mensaje {
-    position: relative;
-    top: 80px;
-    left: 70px;
-    width: 400px;
-    padding: 2.5%;
-  }
-  #enviar {
-    position: relative;
-    top: 170px;
-    right: 550px;
-    color: white;
-    text-align: center;
-    background-color: black;
+  .titulocontacto h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 10px;
+    color: black;
     font-weight: bold;
+  }
+  .contacto-formulario {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6c7bff;
+    border-radius: 30px;
+    margin: 0 25px 15px 25px;
+  }
+  .contacto-label {
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+  }
+  .contacto-input {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: white;
+    border-color: white;
+  }
+  .contacto-mensaje {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    height: 150px;
+    background-color: white;
+    border-color: white;
+  }
+  .contacto-enviar {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    padding: 8px;
     transition: background-color 0.5s;
   }
-  #enviar:hover {
-    background-color: rgb(55, 156, 55);
-    color: white;
-    font-weight: bold;
-    width: 90px;
+  .footercontacto {
+    display: flex;
+    justify-content: end;
+    margin-right: 35px;
   }
   .logofacebook {
     width: 40px;
-    position: relative;
-    top: 235px;
-    left: 1070px;
+    margin: 10px;
   }
   .logowhatsapp {
     width: 40px;
-    position: relative;
-    top: 235px;
-    left: 1100px;
+    margin: 10px;
   }
   .logoinstagram {
     width: 58px;
-    position: relative;
-    top: 235px;
-    left: 1130px;
   }
-  .navint-ul {
-    font-size: 1;
-    text-align: none;
-  }
-  .navint-li {
-    display: inline-block;
-    width: 12%;
-    position: relative;
-  }
-  #busqueda {
-    position: relative;
-    top: 30px;
-    left: 20px;
-    width: 400px;
-    padding: 1;
-    font-size: 17px;
-    background-color: white;
-    border-radius: 20px;
+  /*INFORMACION*/
+  .paginformacion {
+    background-color: rgba(0, 60, 255, 0.192);
   }
   .articles-informacion {
     padding: 0.8%;
@@ -438,24 +408,38 @@
     background-color: black;
     height: 26px;
   }
-  .letra-nav-info {
-    color: white;
-    font-size: 15px;
-  }
   .letra-nav-info:hover {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.082);
     color: black;
   }
+  .footerinformacion {
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+  }
+  .logofacebook-informacion {
+    width: 40px;
+    margin: 10px;
+  }
+  .logowhatsapp-informacion {
+    width: 40px;
+    margin: 10px;
+  }
+  .logoinstagram-informacion {
+    width: 60px;
+  }
 }
+/*VISTA MOBILE*/
 @media screen and (max-width: 760px) {
   footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: end;
     background-color: black;
   }
   .backgroundcolor-nav {
-    background-color: rgb(111, 0, 255);
+    background-color: rgb(68, 0, 255);
   }
   .letra-nav {
     color: white;
@@ -584,14 +568,16 @@
   }
   /* Galeria */
   .imganuel1 img {
-    width: 185.3px;
+    width: 165px;
+    height: 130px;
+    object-fit: cover;
     padding: 1%;
   }
   .imganuel1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgba(209, 64, 178, 0.397);
+    background-color: rgba(64, 139, 209, 0.397);
     margin: 0 auto;
     align-items: center;
     flex-wrap: wrap;
@@ -600,24 +586,37 @@
   .titulo {
     display: flex;
     justify-content: center;
-    color: white;
-    background-color: rgba(20, 20, 20, 0.788);
+    color: black;
+    background-color: rgba(64, 139, 209, 0.397);
+    font-weight: bold;
+    font-size: 32px;
   }
   .logofacebook-galeria {
-    width: 63px;
+    width: 80px;
     padding: 5%;
   }
   .logowhatsapp-galeria {
-    width: 68px;
-    padding: 7%;
+    width: 78px;
+    padding: 5%;
   }
   .logoinstagram-galeria {
-    width: 68px;
-    padding: 7%;
+    width: 78px;
+    padding: 5%;
   }
   /* Informacion */
   .articles-informacion {
     padding: 0.8%;
+  }
+  .paginformacion {
+    background-color: rgba(0, 60, 255, 0.192);
+  }
+  .articles-informacion {
+    padding: 0.8%;
+    font-size: 18px;
+  }
+  .subtitulosh2 h2 {
+    font-weight: bold;
+    text-decoration: underline;
   }
   .logofacebook-informacion {
     width: 62px;
@@ -632,26 +631,54 @@
     padding: 7%;
   }
   /* Contacto */
-  .div-contact {
-    font-size: 22px;
+  .titulocontacto h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+    margin: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  .contacto-formulario {
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 180px;
-    margin-top: 20px;
-    width: 35px;
+    background-color: #6c7bff;
+    border-radius: 20px;
+    margin: 0 25px 25px 25px;
   }
-  #enviar {
+  .contacto-label {
+    margin-top: 15px;
     color: white;
-    text-align: center;
-    background-color: black;
     font-weight: bold;
-    margin: 13px;
+  }
+  .contacto-input {
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: white;
+    border-color: white;
+  }
+  .contacto-mensaje {
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    height: 150px;
+    background-color: white;
+    border-color: white;
+  }
+  .contacto-enviar {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    padding: 8px;
+    transition: background-color 0.5s;
   }
   .footercontacto {
-    position: relative;
-    top: 450px;
+    margin-top: 52%;
   }
   .logofacebook {
     width: 60px;
