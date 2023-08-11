@@ -150,15 +150,11 @@
 
     /* Canciones */
 
-    
-
     .anuelspotify{
         width: 100%;
         height: 500px;
         border-radius: 12px;
-        
-        
-        
+        padding: 6px;
     }
 
         .footercanciones{
@@ -310,6 +306,12 @@
 
 }
             
+
+
+
+
+
+
 
 
 
@@ -474,15 +476,11 @@ margin-right: 25px;
 
 /* Canciones */
 
-
-
 .anuelspotify{
     width: 100%;
     height: 500px;
     border-radius: 12px;
-    
-    
-    
+    padding: 6px;
 }
 
     .footercanciones{
@@ -768,10 +766,12 @@ background-color: rgba(0, 60, 255, 0.192);
     width: 100%;
     height: 500px;
     border-radius: 11px;
-    @include flex-center-center;
-    margin: 9px;
+    padding: 6px;
 }
 
+.footercanciones{
+    margin-top: 5px;
+}
     .logofacebook-canciones{
         width: 62px;
         padding: 5%;
