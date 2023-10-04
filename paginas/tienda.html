@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="contactar a anuel" />
-    <meta
-      name="keywords"
-      content="redes sociales de anuel, instagram ,facebook, whatsapp"
-    />
-    <title>Contacto</title>
+    <title>Tienda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="icon" href="../imagenes/faviconanuel.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/tienda.css" />
   </head>
-  <body id="bodycanciones">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary header-nav">
         <div class="container-fluid backgroundcolor-nav">
@@ -50,76 +50,32 @@
       </nav>
     </header>
 
+    <!-- Productos -->
     <main>
-      <div class="titulocontacto">
-        <h1>CONTACTO</h1>
+      <input id="inputBuscar" type="text" placeholder="Buscar productos..." />
+      <div id="productos">
+        <!-- Acá van a ir todos los productos cargados en la base de datos (catálogo) -->
       </div>
-
-      <form class="contacto-formulario">
-        <label class="contacto-label">Nombre y Apellido</label>
-        <input
-          class="contacto-input"
-          type="text"
-          placeholder="Coloque su Nombre y Apellido"
-          required
-        />
-
-        <label class="contacto-label">Correo Electrónico</label>
-        <input
-          class="contacto-input"
-          type="email"
-          placeholder="Coloque su correo electrónico"
-          required
-        />
-
-        <label class="contacto-label">Mensaje</label>
-        <textarea
-          class="contacto-mensaje"
-          placeholder="Dejanos tu mensaje"
-          required
-        ></textarea>
-
-        <br />
-
-        <input
-          class="contacto-enviar"
-          value="Enviar"
-          id="contacto-enviar"
-          type="submit"
-        />
-      </form>
     </main>
 
-    <footer class="footercontacto">
-      <a href="https://es-es.facebook.com/">
-        <img
-          src="../imagenes/logo facebook.png"
-          alt="icono de facebook con link hacia la app"
-          class="logofacebook"
-        />
-      </a>
-
-      <a href="https://web.whatsapp.com/">
-        <img
-          src="../imagenes/logo  de whatsapp.png"
-          alt="icono de whatsapp con link hacia la app"
-          class="logowhatsapp"
-        />
-      </a>
-
-      <a href="https://www.instagram.com/">
-        <img
-          src="../imagenes/logo instagram.avif "
-          alt="icono de instagram con link hacia la app"
-          class="logoinstagram"
-        />
-      </a>
-    </footer>
+    <section class="ocultar">
+      <h1>
+        <span id="cantidadProductos">0</span>
+      </h1>
+      <div id="scroll">
+        <div id="carrito">
+          <!-- Acá van a estar todos los productos que tengamos en el carrito -->
+        </div>
+      </div>
+      <h2>Total: $<span id="totalCarrito">0</span></h2>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="../tienda.js"></script>
   </body>
 </html>
